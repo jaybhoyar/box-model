@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*===================================*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(230, 233, 233);
+    text-align: center;
+}
+
+
+h1 {
+    color: rgb(51, 4, 45);
+    font-weight: 600;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    background-color: #D18C1D;
+    border: 1px solid red;
+    padding: 10px;
+}
+p {
+    margin: 0 auto;
+    font-size: 22px;
+    width: 576px;
+    height: 376px;
+    padding: 10px;
+    text-align: justify;
+    color: rgb(10, 10, 10);
+    letter-spacing: 0.8px;
+    line-height: 25px;
+    border: 2px dotted black;
+    background-color:#D1D631;
+}
+.image{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+img {
+    border-radius: 15px;
+}
+.circle { 
+    display:block;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px; 
+    background-image: linear-gradient(to top,#292929, #959595);
+}
+
+footer{
+    background-color: #3dc2da;
+    margin-top: 20px;
+    padding: 25px 0;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    padding-right: 40px;
+    font-size: 22px;  
+}
+nav a {
+    text-decoration: none;
+    background-color: #a1a1a1;
+    color: #000000;
+    border-bottom: 3px dotted blue;
+    padding: 5px 5px;
+}
